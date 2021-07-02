@@ -1,0 +1,12 @@
+.keyboard {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 75%;
+  width: 75% !important;
+  margin-top: 10%;
+}

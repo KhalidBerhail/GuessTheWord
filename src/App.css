@@ -1,38 +1,68 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Score {
+  margin: 0 auto;
+  top: 0;
+  height: 20px;
+  background: #7ba8fc;
+  padding: 1% 3%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 700;
+  width: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lost {
+  background-color: tomato;
+}
+
+.GameOver {
+  margin-top: 20%;
+}
+.GameOver > h4 {
+  color: tomato;
+}
+
+.GameOver > h4 > span {
+  color: rgb(255, 255, 255);
+}
+
+.restartButtonWon {
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: #45de7a;
+  background-color: #7ba8fc;
+}
+
+.restartButtonWon:active {
+  color: #45de7a;
+  background-color: white;
+  border-color: #7ba8fc;
+}
+
+.restartButtonLost {
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border-color: white;
+  background-color: tomato;
+}
+
+.restartButtonLost:active {
+  color: tomato;
+  background-color: white;
+  border-color: tomato;
 }

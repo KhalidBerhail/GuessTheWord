@@ -1,0 +1,22 @@
+.guessKey {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border-color: rgb(0, 140, 255);
+  border-width: 3px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  margin: 10px;
+}
+
+.letter {
+  color: rgb(0, 140, 255);
+  font-size: 35px;
+}
+
+.clicked {
+  opacity: 0.5;
+}
